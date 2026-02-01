@@ -1,7 +1,7 @@
               var request = require('supertest');
               var app = require('../index.js');
               
-              describe('GET /', function () {
+              describe('GET /', function () 
                 after(function () {
                   process.exit(0); // Ensure Mocha exits after tests
                 });
